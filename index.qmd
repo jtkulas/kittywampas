@@ -6,7 +6,20 @@ Kitty Wampas is a power rock trio from the Twin Cities area.
 
 ![](img/fullband.jpg)
 
+::: {.columns}
 
-```{r}
-1 + 1
-```
+::: {.column width="33%"}
+![6 Strings<br>Travis](img/Travis.jpg){.img-circle}
+:::
+
+::: {.column width="34%"}
+
+![Boom Booms<br>Jake](https://helios-i.mashable.com/imagery/articles/03VF2z1a256UfelGDQvfqtU/hero-image.fill.size_1248x702.v1683668359.jpg){.img-circle}
+
+:::
+
+::: {.column width="33%"}
+![4 Strings<br>John--o](img/johno.jpg){.img-circle}
+:::
+
+:::

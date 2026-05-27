@@ -7,3 +7,18 @@ Past shows:
 ## November 2025
 
 {{< video https://www.youtube.com/watch?v=LbviT1G73F0 title="November 2025">}}
+
+## Song list
+
+Songs played:
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+songs <- read.csv("songs.csv")
+
+library(DT)
+datatable(songs, rownames=FALSE)
+```
+

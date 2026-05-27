@@ -3,15 +3,30 @@ project:
   output-dir: docs
 
 website:
-  title: "kittyband"
+  title: "Kitty Wampas"
+#  page-navigation: true   # doesn't work without sidebar
   navbar:
-    logo: "img/wampa.jpg"
+    logo: "img/wampa.png"
     left:
       - href: index.qmd
         text: Home
       - discography.qmd
       - calendar.qmd
-
+      - contact.qmd
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/jtkulas/kittywampas
+          - text: Report an Issue
+            href: https://github.com/jtkulas/kittywampas/issues
+  page-footer:  
+    border: true
+    center: "no Kitties or Wampas were harmed during the making of this band"
+    right: 
+      - text: "contact us"
+        href: contact.qmd
+    
 format:
   html:
     mainfont: Zen Dots
@@ -20,6 +35,3 @@ format:
       dark: darkly
     css: styles.css
     toc: true
-
-
-

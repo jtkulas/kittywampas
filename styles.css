@@ -1,3 +1,25 @@
 /* css styles */
 
 @import url('https://fonts.googleapis.com/css?family=Zen Dots');
+
+/* Circular images */
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;           /* Ensures the image fills the circle nicely */
+  width: 260px;                /* Adjust as needed */
+  height: 260px;               /* Must match width for perfect circle */
+  display: block;              /* Good for centering */
+  margin: 1rem auto;           /* Optional: centers the image */
+}
+
+/* Center figure captions */
+figure {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 0.1rem;
+}
+
