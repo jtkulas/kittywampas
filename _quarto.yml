@@ -14,6 +14,7 @@ website:
 
 format:
   html:
+    mainfont: Zen Dots
     theme:
       light: flatly
       dark: darkly
