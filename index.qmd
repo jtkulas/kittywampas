@@ -1,0 +1,12 @@
+---
+title: "Kitty Wampas"
+---
+
+Kitty Wampas is a power rock trio from the Twin Cities area.
+
+![](img/fullband.jpg)
+
+
+```{r}
+1 + 1
+```

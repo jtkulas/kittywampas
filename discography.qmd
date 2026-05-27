@@ -1,0 +1,9 @@
+---
+title: "Discography"
+---
+
+Past shows:
+
+## November 2025
+
+{{< video https://www.youtube.com/watch?v=LbviT1G73F0 title="November 2025">}}

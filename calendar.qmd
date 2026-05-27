@@ -1,0 +1,24 @@
+---
+title: "Calendar"
+---
+
+Upcoming events:
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(calendR)
+library(lubridate)
+
+# Highlight specific days (day of the year or dates in the month)
+#special_days <- c(15, 42, 100, 150, 200)   # or use yday() on real dates
+
+calendR(year = 2026, 
+        month = 6,                    # June 2026 (omit for full year)
+#        special.days = special_days,
+#        special.col = "#FF6B6B",      # Highlight color
+        title = "June 2026",
+        start = "M")
+```
