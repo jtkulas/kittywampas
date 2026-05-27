@@ -23,6 +23,7 @@ website:
   page-footer:  
     border: true
     center: "no Kitties or Wampas were harmed during the making of this band"
+    left: "©Kitty Wampas 2026"
     right: 
       - text: "contact us"
         href: contact.qmd

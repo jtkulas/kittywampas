@@ -2,23 +2,33 @@
 title: "Calendar"
 ---
 
-Upcoming events:
+Upcoming events as of `r format(Sys.Date(), "%b, %Y")`:
 
 ```{r}
 #| echo: false
 #| message: false
 #| warning: false
 
-library(calendR)
-library(lubridate)
+library(TeachingDemos)
 
-# Highlight specific days (day of the year or dates in the month)
-#special_days <- c(15, 42, 100, 150, 200)   # or use yday() on real dates
+setday <-cal(5,2026)                             ## May
+setday(27)
+rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
+text(0.5,0.5,"Practice\n6:30")
 
-calendR(year = 2026, 
-        month = 6,                    # June 2026 (omit for full year)
-#        special.days = special_days,
-#        special.col = "#FF6B6B",      # Highlight color
-        title = "June 2026",
-        start = "M")
+
+setday <-cal(6,2026)                             ## June
+setday(3)
+rect(-0.04,-0.04,1.04,1.04, col="#ed8ade")
+text(0.5,0.5,"Phantazee\nDrapht")
+setday(10)
+rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
+text(0.5,0.5,"Practice \n 6:30")
+
+setday <-cal(7,2026)                             ## July
+setday(25)
+rect(-0.04,-0.04,1.04,1.04, col="#8aed95")
+text(0.5,0.5,"Rock 'n Roll!!")
+
+## https://www.rdocumentation.org/packages/TeachingDemos/versions/2.10/topics/cal
 ```

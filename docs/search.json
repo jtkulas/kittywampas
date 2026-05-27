@@ -18,7 +18,7 @@
     "href": "calendar.html",
     "title": "Calendar",
     "section": "",
-    "text": "Upcoming events:"
+    "text": "Upcoming events as of May, 2026:"
   },
   {
     "objectID": "discography.html",
@@ -35,10 +35,10 @@
     "text": "November 2025"
   },
   {
-    "objectID": "discography.html#song-list",
-    "href": "discography.html#song-list",
+    "objectID": "discography.html#songs-played",
+    "href": "discography.html#songs-played",
     "title": "Discography",
-    "section": "Song list",
-    "text": "Song list\nSongs played:"
+    "section": "Songs played:",
+    "text": "Songs played:"
   }
 ]

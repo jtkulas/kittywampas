@@ -8,9 +8,7 @@ Past shows:
 
 {{< video https://www.youtube.com/watch?v=LbviT1G73F0 title="November 2025">}}
 
-## Song list
-
-Songs played:
+## Songs played:
 
 ```{r}
 #| echo: false
@@ -19,6 +17,10 @@ Songs played:
 songs <- read.csv("songs.csv")
 
 library(DT)
-datatable(songs, rownames=FALSE)
+datatable(songs, rownames=FALSE,
+          options=list(
+            pageLength=5,
+            lengthMenu=c(5,10,15,20,25)
+          ))
 ```
 
