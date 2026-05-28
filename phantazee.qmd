@@ -8,8 +8,7 @@ format:
 
 ```{mermaid}
 %%| mermaid-format: png
-%%| fig-cap: "Caption here"
-%%| 
+%%| fig-width: 8
 sequenceDiagram
 participant Brian
 participant Chirag
@@ -71,4 +70,4 @@ Kyle->>Travis: ⛔ Rnd 3⃣ (2027)
 end
 ```
 
-[Download full-size PNG](phantazee_files/figure-html/mermaid-figure-1.png){download="PhantazeeTrades" .btn .btn-primary}
+[Download PNG](phantazee_files/figure-html/mermaid-figure-1.png){download="PhantazeeTrades" .btn .btn-primary}
