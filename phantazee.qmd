@@ -1,0 +1,74 @@
+---
+format:
+  html:
+    lightbox: true
+    mermaid-format: png     # force static image
+    embed-resources: false  # important for GitHub Pages
+---
+
+```{mermaid}
+%%| mermaid-format: png
+%%| fig-cap: "Caption here"
+%%| 
+sequenceDiagram
+participant Brian
+participant Chirag
+participant Dave
+participant Gary
+participant Jake
+participant Jason
+participant Jeff
+participant John-o
+participant K&G
+participant Kyle
+participant Strauss
+participant Travis
+Brian->>Brian:  
+Chirag->>Chirag:  
+Dave->>Dave:  
+Jason->>Jason:  
+John-o->>John-o:  
+K&G->>K&G:  
+rect rgb(191, 223, 255)
+Strauss->>Travis: 🚀 Rnd 1⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Travis->>Kyle: 🚀 Rnd 1⃣ (2026)
+end
+Note right of Kyle: lesser of Strauss/Travis first rounder
+rect rgb(191, 223, 255)
+Jake->>Travis: 🚀 Rnd 1⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Gary->>Kyle: 🚀 Rnd 1⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Jake->>Kyle: ⭐ Rnd 2⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Strauss->>Jeff: ⭐ Rnd 2⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Travis->>Jake: ⛔ Rnd 3⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Kyle->>Gary: ✨ Rnd 4⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Kyle->>Gary: 🚾 Rnd 5⃣ (2026)
+end
+rect rgb(200, 150, 255)
+Strauss->>Jeff: 🚀 Rnd 1⃣ (2027) 
+end
+rect rgb(200, 150, 255)
+Travis->>Kyle: ⭐ Rnd 2⃣ (2027)
+end
+rect rgb(200, 150, 255)
+Gary->>Kyle: ⭐ Rnd 2⃣ (2027)
+end
+rect rgb(200, 150, 255)
+Kyle->>Travis: ⛔ Rnd 3⃣ (2027)
+end
+```
+
+[Download full-size PNG](phantazee_files/figure-html/mermaid-figure-1.png){download="PhantazeeTrades" .btn .btn-primary}
