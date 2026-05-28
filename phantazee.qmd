@@ -29,6 +29,12 @@ Jason->>Jason:
 John-o->>John-o:  
 K&G->>K&G:  
 rect rgb(191, 223, 255)
+Travis->>Jake: 🚀 Rnd 1⃣ (1.06 2026)
+end
+rect rgb(191, 223, 255)
+Travis->>Kyle: 🚀 Rnd 1⃣ (1.05 2026)
+end
+rect rgb(191, 223, 255)
 Strauss->>Travis: 🚀 Rnd 1⃣ (2026)
 end
 rect rgb(191, 223, 255)
@@ -56,6 +62,13 @@ end
 rect rgb(191, 223, 255)
 Kyle->>Gary: 🚾 Rnd 5⃣ (2026)
 end
+rect rgb(200, 150, 255)
+Jake->>Travis: 🚀 Rnd 1⃣ (2027) 
+end
+rect rgb(200, 150, 255)
+Kyle->>Travis: 🚀 Rnd 1⃣ (2027) 
+end
+Note right of Kyle: additional conditions if Kyle's pick is outside of top 3
 rect rgb(200, 150, 255)
 Strauss->>Jeff: 🚀 Rnd 1⃣ (2027) 
 end
