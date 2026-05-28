@@ -10,6 +10,56 @@ format:
 %%| mermaid-format: png
 %%| fig-width: 8
 sequenceDiagram
+participant Gary
+participant Jake
+participant Jeff
+participant Kyle
+participant Strauss
+participant Travis
+
+rect rgb(191, 223, 255)
+Travis->>Jake: 🚀 Rnd 1⃣ (1.06 2026)
+end
+rect rgb(191, 223, 255)
+Travis->>Kyle: 🚀 Rnd 1⃣ (1.05 2026)
+end
+rect rgb(191, 223, 255)
+Strauss->>Travis: 🚀 Rnd 1⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Travis->>Kyle: 🚀 Rnd 1⃣ (2026)
+end
+Note right of Kyle: lesser of Strauss/Travis first rounder
+rect rgb(191, 223, 255)
+Jake->>Travis: 🚀 Rnd 1⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Gary->>Kyle: 🚀 Rnd 1⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Jake->>Kyle: ⭐ Rnd 2⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Strauss->>Jeff: ⭐ Rnd 2⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Travis->>Jake: ⛔ Rnd 3⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Kyle->>Gary: ✨ Rnd 4⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Kyle->>Gary: 🚾 Rnd 5⃣ (2026)
+end
+
+```
+
+[Download 2026 Picks](phantazee_files/figure-html/mermaid-figure-1.png){download="PhantazeeTrades26.png" .btn .btn-primary}
+
+```{mermaid}
+%%| mermaid-format: png
+%%| fig-width: 8
+sequenceDiagram
 participant Brian
 participant Chirag
 participant Dave
@@ -83,4 +133,4 @@ Kyle->>Travis: ⛔ Rnd 3⃣ (2027)
 end
 ```
 
-[Download PNG](phantazee_files/figure-html/mermaid-figure-1.png){download="PhantazeeTrades" .btn .btn-primary}
+[Download All Trades](phantazee_files/figure-html/mermaid-figure-2.png){download="PhantazeeTradesALL.png" .btn .btn-primary}
