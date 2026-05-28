@@ -1,14 +1,5 @@
----
-title: "Discography"
----
 
-Past shows:
-
-## November 2025
-
-{{< video https://www.youtube.com/watch?v=LbviT1G73F0 title="November 2025">}}
-
-## Songs played:
+## Songs played
 
 ```{r}
 #| echo: false
@@ -23,4 +14,12 @@ datatable(songs, rownames=FALSE,
             lengthMenu=c(5,10,15,20,25)
           ))
 ```
+
+## Past shows
+
+November 2025:
+
+{{< video https://www.youtube.com/watch?v=LbviT1G73F0 title="November 2025">}}
+
+
 

@@ -4,13 +4,15 @@ project:
 
 website:
   title: "Kitty Wampas"
+  twitter-card: true
 #  page-navigation: true   # doesn't work without sidebar
   navbar:
     logo: "img/wampa.png"
     left:
       - href: index.qmd
         text: Home
-      - discography.qmd
+      - href: discography.qmd
+        text: Discography
       - calendar.qmd
       - contact.qmd
     tools:
@@ -20,6 +22,12 @@ website:
             href: https://github.com/jtkulas/kittywampas
           - text: Report an Issue
             href: https://github.com/jtkulas/kittywampas/issues
+      - icon: facebook
+        href: https://facebook.com
+      - icon: twitter-x
+        href: https://x.com
+      - icon: youtube
+        href: https://www.youtube.com/@Kittywampas1
   page-footer:  
     border: true
     center: "no Kitties or Wampas were harmed during the making of this band"
