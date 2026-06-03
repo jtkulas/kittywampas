@@ -6,9 +6,40 @@ format:
     embed-resources: false  # important for GitHub Pages
 ---
 
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| 
+m <- matrix(c(0, 1, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0,
+              0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+              3, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 0,
+              0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+              0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+              0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+              0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+              2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+              0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+              0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+              0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+              0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+            byrow = TRUE,
+            nrow = 12, ncol = 12)
+owners <- c("Travis", "Strauss", "Kyle", "K&G", "John-o", "Jeff", "Jason", "Jake", "Gary", "Dave", "Chirag", "Brian")
+dimnames(m) <- list(to = owners,
+                    from = owners)
+
+library(chorddiag)
+#groupColors <- c("#000000", "#FFDD89", "#957244", "#F26223")
+chorddiag(m, groupnamePadding = 20)
+
+```
+>Trade chart as of `r format(Sys.Date(), "%b, %Y")` (`total` only reflects [incoming]{.underline} picks -- true total number of overall picks swapped is not reflected in the `total` "hover" reported number)
+
 ```{mermaid}
 %%| mermaid-format: png
 %%| fig-width: 8
+
 sequenceDiagram
 participant Gary
 participant Jake
