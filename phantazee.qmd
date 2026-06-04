@@ -10,6 +10,8 @@ format:
 #| echo: false
 #| warning: false
 #| message: false
+#| label: fig-chord
+#| fig-cap: "Total drapht pick trades (2026--) Chord diagram"
 #| 
 m <- matrix(c(0, 1, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0,
               0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -34,62 +36,18 @@ library(chorddiag)
 chorddiag(m, groupnamePadding = 20)
 
 ```
->Trade chart as of `r format(Sys.Date(), "%b, %Y")` (`total` only reflects [incoming]{.underline} picks -- true total number of overall picks swapped is not reflected in the `total` "hover" reported number)
+
+::: {.callout-note}
+
+@fig-chord trade chart as of `r format(Sys.Date(), "%b, %Y")` --  `total` only reflects [incoming]{.underline} picks -- true total number of overall picks swapped is not reflected in the `total` "hover" reported number
+
+:::
 
 ```{mermaid}
 %%| mermaid-format: png
 %%| fig-width: 8
-
-sequenceDiagram
-participant Gary
-participant Jake
-participant Jeff
-participant Kyle
-participant Strauss
-participant Travis
-
-rect rgb(191, 223, 255)
-Travis->>Jake: 🚀 Rnd 1⃣ (1.06 2026)
-end
-rect rgb(191, 223, 255)
-Travis->>Kyle: 🚀 Rnd 1⃣ (1.05 2026)
-end
-rect rgb(191, 223, 255)
-Strauss->>Travis: 🚀 Rnd 1⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Travis->>Kyle: 🚀 Rnd 1⃣ (2026)
-end
-Note right of Kyle: lesser of Strauss/Travis first rounder
-rect rgb(191, 223, 255)
-Jake->>Travis: 🚀 Rnd 1⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Gary->>Kyle: 🚀 Rnd 1⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Jake->>Kyle: ⭐ Rnd 2⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Strauss->>Jeff: ⭐ Rnd 2⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Travis->>Jake: ⛔ Rnd 3⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Kyle->>Gary: ✨ Rnd 4⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Kyle->>Gary: 🚾 Rnd 5⃣ (2026)
-end
-
-```
-
-[Download 2026 Picks](phantazee_files/figure-html/mermaid-figure-1.png){download="PhantazeeTrades26.png" .btn .btn-primary}
-
-```{mermaid}
-%%| mermaid-format: png
-%%| fig-width: 8
+%%| label: fig-current
+%%| fig-cap: "Individual drapht pick trades (2027 and onward)"
 sequenceDiagram
 participant Brian
 participant Chirag
@@ -109,40 +67,7 @@ Dave->>Dave:
 Jason->>Jason:  
 John-o->>John-o:  
 K&G->>K&G:  
-rect rgb(191, 223, 255)
-Travis->>Jake: 🚀 Rnd 1⃣ (1.06 2026)
-end
-rect rgb(191, 223, 255)
-Travis->>Kyle: 🚀 Rnd 1⃣ (1.05 2026)
-end
-rect rgb(191, 223, 255)
-Strauss->>Travis: 🚀 Rnd 1⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Travis->>Kyle: 🚀 Rnd 1⃣ (2026)
-end
-Note right of Kyle: lesser of Strauss/Travis first rounder
-rect rgb(191, 223, 255)
-Jake->>Travis: 🚀 Rnd 1⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Gary->>Kyle: 🚀 Rnd 1⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Jake->>Kyle: ⭐ Rnd 2⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Strauss->>Jeff: ⭐ Rnd 2⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Travis->>Jake: ⛔ Rnd 3⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Kyle->>Gary: ✨ Rnd 4⃣ (2026)
-end
-rect rgb(191, 223, 255)
-Kyle->>Gary: 🚾 Rnd 5⃣ (2026)
-end
+
 rect rgb(200, 150, 255)
 Jake->>Travis: 🚀 Rnd 1⃣ (2027) 
 end
@@ -164,4 +89,55 @@ Kyle->>Travis: ⛔ Rnd 3⃣ (2027)
 end
 ```
 
-[Download All Trades](phantazee_files/figure-html/mermaid-figure-2.png){download="PhantazeeTradesALL.png" .btn .btn-primary}
+[Download Trades](phantazee_files/figure-html/mermaid-figure-1.png){download="PhantazeeTradesALL.png" .btn .btn-primary}
+
+## Past Years
+
+```{mermaid}
+%%| fig-width: 8
+%%| label: fig-twentysix
+%%| fig-cap: "Individual drapht pick trades (2026)"
+sequenceDiagram
+participant Gary
+participant Jake
+participant Jeff
+participant Kyle
+participant Strauss
+participant Travis
+
+rect rgb(191, 223, 255)
+Travis->>Jake: 🚀 Rnd 1⃣ (1.06 2026)
+end
+rect rgb(191, 223, 255)
+Travis->>Kyle: 🚀 Rnd 1⃣ (1.05 2026)
+end
+rect rgb(191, 223, 255)
+Strauss->>Travis: 🚀 Rnd 1⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Travis->>Kyle: 🚀 Rnd 1⃣ (2026)
+end
+Note right of Kyle: lesser of Strauss/Travis first rounder
+rect rgb(191, 223, 255)
+Jake->>Travis: 🚀 Rnd 1⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Gary->>Kyle: 🚀 Rnd 1⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Jake->>Kyle: ⭐ Rnd 2⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Strauss->>Jeff: ⭐ Rnd 2⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Travis->>Jake: ⛔ Rnd 3⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Kyle->>Gary: ✨ Rnd 4⃣ (2026)
+end
+rect rgb(191, 223, 255)
+Kyle->>Gary: 🚾 Rnd 5⃣ (2026)
+end
+
+```
