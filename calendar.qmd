@@ -2,7 +2,7 @@
 title: "Calendar"
 ---
 
-Upcoming events as of `r format(Sys.Date(), "%b, %Y")`:
+Upcoming events as of `r format(Sys.Date(), "%B, %Y")`:
 
 ```{r}
 #| echo: false
@@ -10,12 +10,6 @@ Upcoming events as of `r format(Sys.Date(), "%b, %Y")`:
 #| warning: false
 
 library(TeachingDemos)
-
-setday <-cal(5,2026)                             ## May
-setday(27)
-rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
-text(0.5,0.5,"Practice\n6:30")
-
 
 setday <-cal(6,2026)                             ## June
 setday(3)

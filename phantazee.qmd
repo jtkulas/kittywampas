@@ -39,7 +39,7 @@ chorddiag(m, groupnamePadding = 20)
 
 ::: {.callout-note}
 
-@fig-chord trade chart as of `r format(Sys.Date(), "%b, %Y")` --  `total` only reflects [incoming]{.underline} picks -- true total number of overall picks swapped is not reflected in the `total` "hover" reported number
+@fig-chord trade chart as of `r format(Sys.Date(), "%B, %Y")` --  `Name (total):` value only reflects [incoming]{.underline} picks -- true total number of overall picks swapped is not reflected in the `Name (total):` "hover" reported number
 
 :::
 
