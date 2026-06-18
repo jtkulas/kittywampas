@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>phantazee – Kitty Wampas</title>
+<title>calendarideas – Kitty Wampas</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -47,9 +82,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-726d3bcbc7a818ea827f2b75548680d4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-c27125e85d70fe5d863eee29bc54c72c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-726d3bcbc7a818ea827f2b75548680d4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,25 +109,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
-
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-
-<script src="site_libs/d3-4.13.0/d3.min.js"></script>
-
-<script src="site_libs/d3-tip-0.8.1/index.js"></script>
-
-<link href="site_libs/chorddiag-0.1.2.9000/chorddiag.css" rel="stylesheet">
-
-<script src="site_libs/chorddiag-0.1.2.9000/chorddiag.js"></script>
-
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
 <meta name="twitter:title" content="Kitty Wampas">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="phantazee_files\figure-html\mermaid-figure-1.png">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -332,7 +353,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#past-years" id="toc-past-years" class="nav-link active" data-scroll-target="#past-years">Past Years</a></li>
+  <li><a href="#calendr-best-direct-replacement-ggplot2-based" id="toc-calendr-best-direct-replacement-ggplot2-based" class="nav-link active" data-scroll-target="#calendr-best-direct-replacement-ggplot2-based">1. calendR (Best Direct Replacement – ggplot2-Based)</a></li>
+  <li><a href="#custom-ggplot2-calendars-flexible-no-extra-package-needed" id="toc-custom-ggplot2-calendars-flexible-no-extra-package-needed" class="nav-link" data-scroll-target="#custom-ggplot2-calendars-flexible-no-extra-package-needed">2. Custom ggplot2 Calendars (Flexible, No Extra Package Needed)</a></li>
+  <li><a href="#interactive-javascript-calendars-via-quarto-html-features" id="toc-interactive-javascript-calendars-via-quarto-html-features" class="nav-link" data-scroll-target="#interactive-javascript-calendars-via-quarto-html-features">3. Interactive JavaScript Calendars (via Quarto HTML Features)</a></li>
+  <li><a href="#other-r-options" id="toc-other-r-options" class="nav-link" data-scroll-target="#other-r-options">4. Other R Options</a></li>
+  <li><a href="#recommendations-for-your-site" id="toc-recommendations-for-your-site" class="nav-link" data-scroll-target="#recommendations-for-your-site">Recommendations for Your Site</a></li>
   </ul>
 </nav>
     </div>
@@ -343,72 +368,107 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="cell">
-<div id="fig-chord" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-chord-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="chorddiag html-widget html-fill-item" id="htmlwidget-e40acc58350383a42a82" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-e40acc58350383a42a82">{"x":{"matrix":[[0,1,2,0,0,0,0,2,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0],[3,0,0,0,0,0,0,1,2,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0],[0,2,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0],[2,0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0]],"options":{"type":"directional","width":null,"height":null,"margin":100,"showGroupnames":true,"groupNames":["Travis","Strauss","Kyle","K&G","John-o","Jeff","Jason","Jake","Gary","Dave","Chirag","Brian"],"groupColors":["#1B9E77","#D95F02","#7570B3","#E7298A","#66A61E","#E6AB02","#A6761D","#666666"],"groupThickness":0.1,"groupPadding":0.03490658503988659,"groupnamePadding":[20,20,20,20,20,20,20,20,20,20,20,20],"groupnameFontsize":18,"groupedgeColor":null,"chordedgeColor":"#808080","categoryNames":null,"categorynamePadding":100,"categorynameFontsize":28,"showTicks":true,"tickInterval":0.1,"ticklabelFontsize":10,"fadeLevel":0.1,"showTooltips":true,"showZeroTooltips":true,"tooltipNames":["Travis","Strauss","Kyle","K&G","John-o","Jeff","Jason","Jake","Gary","Dave","Chirag","Brian"],"tooltipFontsize":12,"tooltipUnit":"","tooltipGroupConnector":" &#x25B6; ","precision":"null","clickAction":null,"clickGroupAction":null}},"evals":[],"jsHooks":[]}</script>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-chord-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Total drapht pick trades (2026–) Chord diagram
-</figcaption>
-</figure>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="#fig-chord" class="quarto-xref">Figure&nbsp;1</a> trade chart as of June, 2026 – <code>Name (total):</code> value only reflects <u>incoming</u> picks – true total number of overall picks swapped is not reflected in the <code>Name (total):</code> “hover” reported number</p>
-</div>
-</div>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div id="fig-current" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-current-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div>
-<p><a href="phantazee_files\figure-html\mermaid-figure-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;2: Individual drapht pick trades (2027 and onward)"><img src="phantazee_files\figure-html\mermaid-figure-1.png" style="width:8in;height:2.76in" class="figure-img"></a></p>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-current-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Individual drapht pick trades (2027 and onward)
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<p><a href="phantazee_files/figure-html/mermaid-figure-1.png" class="btn btn-primary" download="PhantazeeTradesALL.png">Download Trades</a></p>
-<section id="past-years" class="level2">
-<h2 class="anchored" data-anchor-id="past-years">Past Years</h2>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div id="fig-twentysix" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-twentysix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div>
-<p><a href="phantazee_files\figure-html\mermaid-figure-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;3: Individual drapht pick trades (2026)"><img src="phantazee_files\figure-html\mermaid-figure-2.png" style="width:8in;height:6.33in" class="figure-img"></a></p>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-twentysix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: Individual drapht pick trades (2026)
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<p><strong>Here are several better alternatives to <code>TeachingDemos::cal()</code> for embedding calendars in your Quarto site.</strong> These options improve on static base-R plots by offering better customization, ggplot2 integration (which fits your R dataviz workflow), interactivity, or easier event highlighting.</p>
+<section id="calendr-best-direct-replacement-ggplot2-based" class="level3">
+<h3 class="anchored" data-anchor-id="calendr-best-direct-replacement-ggplot2-based">1. calendR (Best Direct Replacement – ggplot2-Based)</h3>
+<p>The <strong><code>calendR</code></strong> package is the most straightforward upgrade. It creates fully customizable, ready-to-print monthly or yearly calendars with ggplot2, including support for events, colors, text labels, moon phases, and even calendar heatmaps.</p>
+<p><strong>Installation and basic use:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("calendR")</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(calendR)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Yearly calendar</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">calendR</span>(<span class="at">year =</span> <span class="dv">2026</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Monthly with events and custom styling</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">calendR</span>(</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">year =</span> <span class="dv">2026</span>, <span class="at">month =</span> <span class="dv">6</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">start =</span> <span class="st">"M"</span>,               <span class="co"># Monday start</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">special.days =</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">15</span>, <span class="dv">20</span>),  <span class="co"># Highlight days</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">special.col =</span> <span class="st">"lightblue"</span>,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">title.size =</span> <span class="dv">20</span>,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">text.size =</span> <span class="dv">10</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Calendar heatmap (e.g., for activity levels)</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">calendR</span>(<span class="at">year =</span> <span class="dv">2026</span>, </span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>        <span class="at">special.days =</span> your_event_dates,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>        <span class="at">special.col =</span> scales<span class="sc">::</span><span class="fu">viridis_pal</span>()(<span class="dv">10</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>In Quarto:</strong> Chunk outputs are high-quality ggplot2 plots (SVG/PNG). Add <code>fig-width</code>, <code>fig-height</code>, and themes for polish. You can script events from a data frame (e.g., CSV or tibble) for dynamic updates on re-render.</p>
+<p>This keeps everything in R/ggplot2 while looking far more professional than <code>TeachingDemos</code>.</p>
+</section>
+<section id="custom-ggplot2-calendars-flexible-no-extra-package-needed" class="level3">
+<h3 class="anchored" data-anchor-id="custom-ggplot2-calendars-flexible-no-extra-package-needed">2. Custom ggplot2 Calendars (Flexible, No Extra Package Needed)</h3>
+<p>Build your own with <code>ggplot2</code> + <code>lubridate</code>/<code>dplyr</code> for full control. Packages like <strong>sugrrants</strong> (<code>frame_calendar()</code>) or simple grid setups also work well.</p>
+<p>Example skeleton:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lubridate)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>dates <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">date =</span> <span class="fu">seq</span>(<span class="fu">as.Date</span>(<span class="st">"2026-01-01"</span>), <span class="fu">as.Date</span>(<span class="st">"2026-12-31"</span>), <span class="at">by =</span> <span class="st">"day"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">weekday =</span> <span class="fu">wday</span>(date, <span class="at">label =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>         <span class="at">month =</span> <span class="fu">month</span>(date, <span class="at">label =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>         <span class="at">day =</span> <span class="fu">day</span>(date),</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>         <span class="at">week =</span> <span class="fu">floor</span>((<span class="fu">yday</span>(date) <span class="sc">-</span> <span class="dv">1</span>) <span class="sc">/</span> <span class="dv">7</span>) <span class="sc">+</span> <span class="dv">1</span>)  <span class="co"># etc.</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(dates, <span class="fu">aes</span>(<span class="at">x =</span> weekday, <span class="at">y =</span> <span class="sc">-</span>week, <span class="at">label =</span> day, <span class="at">fill =</span> some_value)) <span class="sc">+</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_tile</span>(<span class="at">color =</span> <span class="st">"white"</span>) <span class="sc">+</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>() <span class="sc">+</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> month) <span class="sc">+</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_viridis_c</span>() <span class="sc">+</span>  <span class="co"># for heatmaps</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This integrates seamlessly with your existing dataviz code (e.g., overlay event data or metrics).</p>
+</section>
+<section id="interactive-javascript-calendars-via-quarto-html-features" class="level3">
+<h3 class="anchored" data-anchor-id="interactive-javascript-calendars-via-quarto-html-features">3. Interactive JavaScript Calendars (via Quarto HTML Features)</h3>
+<p>For a more modern, clickable experience (e.g., event popups, navigation), embed JS libraries. Quarto HTML supports this natively.</p>
+<ul>
+<li><strong>FullCalendar</strong> (most popular): Highly performant, supports events, drag-and-drop, multiple views. Include via HTML/JS in a Quarto page or use Observable JS.
+<ul>
+<li>Add to your <code>.qmd</code> with <code>include-before-body</code> or raw HTML blocks.</li>
+<li>Example resources exist for Quarto + ICS files or static event JSON.</li>
+</ul></li>
+<li><strong>Observable JS</strong> (built into Quarto): Use reactive JS calendars or D3-based ones. Great if you want interactivity tied to R data (e.g., pass events via <code>ojs_define()</code>).</li>
+</ul>
+<p><strong>Simple embed example (FullCalendar):</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># In YAML or include-in-header</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">include-in-header</span><span class="kw">:</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">  text</span><span class="kw">: </span><span class="ch">|</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    &lt;link href='https://cdn.jsdelivr.net/npm/fullcalendar@6/index.global.min.css' rel='stylesheet' /&gt;</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    &lt;script src='https://cdn.jsdelivr.net/npm/fullcalendar@6/index.global.min.js'&gt;&lt;/script&gt;</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Then a <code>{html}</code> or raw block with a <code>&lt;div id='calendar'&gt;&lt;/div&gt;</code> and script to initialize with your events.</p>
+</section>
+<section id="other-r-options" class="level3">
+<h3 class="anchored" data-anchor-id="other-r-options">4. Other R Options</h3>
+<ul>
+<li><strong>calendar</strong> package: For generating/reading <code>.ics</code> files (iCalendar format). Export events and display via JS above.</li>
+<li>Heatmap-focused: <code>openair::calendarPlot()</code> or custom ggplot2 for activity tracking.</li>
+</ul>
+</section>
+<section id="recommendations-for-your-site" class="level3">
+<h3 class="anchored" data-anchor-id="recommendations-for-your-site">Recommendations for Your Site</h3>
+<ul>
+<li><strong>Stay in R</strong>: Start with <strong>calendR</strong> — it’s the least friction and produces nicer static output than <code>TeachingDemos</code>.</li>
+<li><strong>Add polish</strong>: Use <code>ggsave()</code> for consistent sizing or Quarto figure options.</li>
+<li><strong>Go dynamic</strong>: If you have recurring/upcoming events, maintain them in a data frame/CSV and script highlights.</li>
+<li><strong>Interactive upgrade</strong>: Combine R (generate event JSON) + FullCalendar/Observable for a web-native feel.</li>
+</ul>
+<p>You can regenerate the page on schedule (e.g., via GitHub Actions or Posit Connect) to keep “Upcoming events as of [date]” fresh.</p>
+<p>If you share more details (e.g., how events are stored or desired features like heatmaps/recurrence), I can provide exact code snippets!</p>
 
 
 </section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W119
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -842,38 +902,6 @@ Figure&nbsp;3: Individual drapht pick trades (2026)
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

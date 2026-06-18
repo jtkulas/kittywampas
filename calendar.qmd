@@ -18,11 +18,20 @@ text(0.5,0.5,"Phantazee\nDrapht")
 setday(10)
 rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
 text(0.5,0.5,"Practice \n 6:30")
+setday(13)
+rect(-0.04,-0.04,1.04,1.04, col="#8aed95")
+text(0.5,0.5,"Family Jam")
+setday(24)
+rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
+text(0.5,0.5,"Practice \n 6:30")
 
 setday <-cal(7,2026)                             ## July
-setday(25)
-rect(-0.04,-0.04,1.04,1.04, col="#8aed95")
-text(0.5,0.5,"Rock 'n Roll!!")
+setday(8)
+rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
+text(0.5,0.5,"Practice \n 6:30")
+setday(22)
+rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
+text(0.5,0.5,"Practice \n 6:30")
 
 ## https://www.rdocumentation.org/packages/TeachingDemos/versions/2.10/topics/cal
 ```
