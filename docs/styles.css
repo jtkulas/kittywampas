@@ -1,6 +1,7 @@
 /* css styles */
 
 @import url('https://fonts.googleapis.com/css?family=Zen Dots');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /* Circular images */
 .img-circle {
@@ -23,3 +24,6 @@ figcaption {
   margin-top: 0.1rem;
 }
 
+.roboto {
+  font-family: "Roboto";
+}

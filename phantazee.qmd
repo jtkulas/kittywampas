@@ -6,6 +6,8 @@ format:
     embed-resources: false  # important for GitHub Pages
 ---
 
+::: {.roboto}
+
 ```{r}
 #| echo: false
 #| warning: false
@@ -141,3 +143,5 @@ Kyle->>Gary: 🚾 Rnd 5⃣ (2026)
 end
 
 ```
+
+:::
