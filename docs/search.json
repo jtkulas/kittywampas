@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "tokyo.html",
+    "href": "tokyo.html",
+    "title": "Kitty Wampas",
+    "section": "",
+    "text": "Tokai basses are a great find in Japan — the brand is headquartered and hand-builds instruments in Hamamatsu, so you’re starting in the right city. New and especially used/vintage Tokai basses (including Jazz Bass-style models like the APB series) do appear regularly in Japanese shops, particularly places specializing in used or Japanese-made gear.\nHere are the best bets, prioritized by your plans:\n\n1. Hamamatsu (Start Here)\nYour best local option is SONIX (ソニックス), widely regarded as the biggest and strongest music store in Hamamatsu for used instruments, guitars, basses, and repairs. They buy/sell a lot of used gear and are your highest-likelihood spot in the city itself for a used Tokai bass.\n\nAddress: 4-5-8 Takabayashi, Chuo-ku, Hamamatsu-shi, Shizuoka 430-0907\nPhone: 053-476-6688\nHours: 11:00–20:00 (closed Tuesdays)\nThey list inventory on Digimart (see below), so you can check stock ahead of time.\n\nThere isn’t a public Tokai factory outlet or retail showroom for walk-in purchases (the factory is in the outskirts and past visits were by special arrangement only).\nBonus nearby: The Hamamatsu Museum of Musical Instruments is worth a quick visit for context (it’s the “City of Music” after all), but it’s a museum, not a shop.\n\n\n2. Tokyo – Ochanomizu Guitar Street (Highest Overall Likelihood)\nThis is the premier destination in Japan for new and especially used/vintage Japanese guitars and basses (Tokai, Greco, Yamaha, etc.). The density of shops is unmatched — it’s basically guitar heaven on one street (Meidai-dōri). Many stores have dedicated used sections and regularly stock Tokai instruments.\nTop recommendations: - Ishibashi Music (イシバシ楽器) — Multiple locations, including the big Ochanomizu Honten and “Finest Guitars” section nearby. Excellent selection of both new Tokai models and used/vintage ones. They handle tourists well (English support, tax-free with passport). - Shimokura Musical Instruments / Shimokura Second Hands — Two locations right on Guitar Street. One of the best for used and vintage Japanese instruments. Often has deeper stock of older Tokai pieces.\nOther solid shops on the same street include Guitar Planet, Kurosawa, and various smaller used-focused spots. Just walk the street — you’ll see guitars everywhere.\nTravel tip from Hamamatsu: Take the Shinkansen (Hikari or Kodama) to Tokyo Station (~1h 15–40 min), then a short subway/walk to Ochanomizu. Very doable as a day trip or overnight. Worth it if you’re serious about finding a Tokai bass.\n\n\nOther Strong Options If You’re Willing to Travel\n\nNagoya — Ishibashi has a store here, and there are used instrument shops (e.g., around the Gakuya area). It’s closer to Hamamatsu (~45–60 min by train) than Tokyo.\nOther big cities — Ishibashi branches in Osaka, Yokohama, etc., are reliable for new stock.\n\n\n\nPro Tips for Hunting Tokai Basses\n\nDigimart.net (or the app) is your best friend — Japan’s biggest aggregator of used instruments. Search “tokai ベース” (Tokai bass) or filter by brand “Tokai” + bass category. It shows real-time stock from stores across Japan (including SONIX, Ishibashi, Shimokura, etc.) with photos, condition, and prices. Many listings are from the exact shops you’ll visit.\nNew vs Used: SONIX leans heavily used. Ochanomizu has the best mix — current production Tokai basses (e.g., APB-101 models) plus plenty of older Japanese-made ones.\nTax-free shopping: Bring your passport — most major stores offer duty-free for tourists.\nBargaining: Common on used items (especially cash or multiple purchases). Don’t be shy but stay polite.\nCondition check: Japanese used gear is usually well-maintained, but always play/test thoroughly.\n\nQuick plan suggestion: 1. Hit SONIX in Hamamatsu first (easy local win for used). 2. If nothing clicks or you want more options, head to Ochanomizu in Tokyo — that’s where you’re most likely to score a great Tokai bass (new or used/vintage).\nWould you like me to help narrow it down further (e.g., specific models you’re after, budget range, or current Digimart-style stock ideas)? Or need addresses/maps for any of these spots? Safe travels and happy hunting! 🎸"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kitty Wampas",
+    "section": "",
+    "text": "Kitty Wampas is a power rock trio from the Twin Cities area.\n\n\n\n\n\n\n6 StringsTravis\n\n\n\n\n\n\nBoom BoomsJake\n\n\n\n\n\n\n4 StringsJohn–o"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Wanna schedule Kitty Wampas for your event?\nContact Mr 6–strings"
+  },
+  {
+    "objectID": "calendar.html",
+    "href": "calendar.html",
+    "title": "Calendar",
+    "section": "",
+    "text": "Upcoming events as of June, 2026:\n\nJuneJulyAugustSeptember"
+  },
+  {
+    "objectID": "calendarideas.html",
+    "href": "calendarideas.html",
+    "title": "Kitty Wampas",
+    "section": "",
+    "text": "Here are several better alternatives to TeachingDemos::cal() for embedding calendars in your Quarto site. These options improve on static base-R plots by offering better customization, ggplot2 integration (which fits your R dataviz workflow), interactivity, or easier event highlighting.\n\n1. calendR (Best Direct Replacement – ggplot2-Based)\nThe calendR package is the most straightforward upgrade. It creates fully customizable, ready-to-print monthly or yearly calendars with ggplot2, including support for events, colors, text labels, moon phases, and even calendar heatmaps.\nInstallation and basic use:\n# install.packages(\"calendR\")\nlibrary(calendR)\n\n# Yearly calendar\ncalendR(year = 2026)\n\n# Monthly with events and custom styling\ncalendR(\n  year = 2026, month = 6,\n  start = \"M\",               # Monday start\n  special.days = c(10, 15, 20),  # Highlight days\n  special.col = \"lightblue\",\n  title.size = 20,\n  text.size = 10\n)\n\n# Calendar heatmap (e.g., for activity levels)\ncalendR(year = 2026, \n        special.days = your_event_dates,\n        special.col = scales::viridis_pal()(10))\nIn Quarto: Chunk outputs are high-quality ggplot2 plots (SVG/PNG). Add fig-width, fig-height, and themes for polish. You can script events from a data frame (e.g., CSV or tibble) for dynamic updates on re-render.\nThis keeps everything in R/ggplot2 while looking far more professional than TeachingDemos.\n\n\n2. Custom ggplot2 Calendars (Flexible, No Extra Package Needed)\nBuild your own with ggplot2 + lubridate/dplyr for full control. Packages like sugrrants (frame_calendar()) or simple grid setups also work well.\nExample skeleton:\nlibrary(tidyverse)\nlibrary(lubridate)\n\ndates &lt;- tibble(date = seq(as.Date(\"2026-01-01\"), as.Date(\"2026-12-31\"), by = \"day\")) %&gt;%\n  mutate(weekday = wday(date, label = TRUE),\n         month = month(date, label = TRUE),\n         day = day(date),\n         week = floor((yday(date) - 1) / 7) + 1)  # etc.\n\nggplot(dates, aes(x = weekday, y = -week, label = day, fill = some_value)) +\n  geom_tile(color = \"white\") +\n  geom_text() +\n  facet_wrap(~ month) +\n  scale_fill_viridis_c() +  # for heatmaps\n  theme_minimal()\nThis integrates seamlessly with your existing dataviz code (e.g., overlay event data or metrics).\n\n\n3. Interactive JavaScript Calendars (via Quarto HTML Features)\nFor a more modern, clickable experience (e.g., event popups, navigation), embed JS libraries. Quarto HTML supports this natively.\n\nFullCalendar (most popular): Highly performant, supports events, drag-and-drop, multiple views. Include via HTML/JS in a Quarto page or use Observable JS.\n\nAdd to your .qmd with include-before-body or raw HTML blocks.\nExample resources exist for Quarto + ICS files or static event JSON.\n\nObservable JS (built into Quarto): Use reactive JS calendars or D3-based ones. Great if you want interactivity tied to R data (e.g., pass events via ojs_define()).\n\nSimple embed example (FullCalendar):\n# In YAML or include-in-header\ninclude-in-header:\n  text: |\n    &lt;link href='https://cdn.jsdelivr.net/npm/fullcalendar@6/index.global.min.css' rel='stylesheet' /&gt;\n    &lt;script src='https://cdn.jsdelivr.net/npm/fullcalendar@6/index.global.min.js'&gt;&lt;/script&gt;\nThen a {html} or raw block with a &lt;div id='calendar'&gt;&lt;/div&gt; and script to initialize with your events.\n\n\n4. Other R Options\n\ncalendar package: For generating/reading .ics files (iCalendar format). Export events and display via JS above.\nHeatmap-focused: openair::calendarPlot() or custom ggplot2 for activity tracking.\n\n\n\nRecommendations for Your Site\n\nStay in R: Start with calendR — it’s the least friction and produces nicer static output than TeachingDemos.\nAdd polish: Use ggsave() for consistent sizing or Quarto figure options.\nGo dynamic: If you have recurring/upcoming events, maintain them in a data frame/CSV and script highlights.\nInteractive upgrade: Combine R (generate event JSON) + FullCalendar/Observable for a web-native feel.\n\nYou can regenerate the page on schedule (e.g., via GitHub Actions or Posit Connect) to keep “Upcoming events as of [date]” fresh.\nIf you share more details (e.g., how events are stored or desired features like heatmaps/recurrence), I can provide exact code snippets!"
+  },
+  {
+    "objectID": "discography.html#past-shows",
+    "href": "discography.html#past-shows",
+    "title": "Kitty Wampas",
+    "section": "Past shows",
+    "text": "Past shows\nNovember 2025:"
+  },
+  {
     "objectID": "phantazee.html",
     "href": "phantazee.html",
     "title": "Kitty Wampas",
@@ -12,40 +54,5 @@
     "title": "Kitty Wampas",
     "section": "Past Years",
     "text": "Past Years\n\n\n\n\n\n\n\n\n\n\nFigure 3: Individual drapht pick trades (2026)"
-  },
-  {
-    "objectID": "discography.html#past-shows",
-    "href": "discography.html#past-shows",
-    "title": "Kitty Wampas",
-    "section": "Past shows",
-    "text": "Past shows\nNovember 2025:"
-  },
-  {
-    "objectID": "calendarideas.html",
-    "href": "calendarideas.html",
-    "title": "Kitty Wampas",
-    "section": "",
-    "text": "Here are several better alternatives to TeachingDemos::cal() for embedding calendars in your Quarto site. These options improve on static base-R plots by offering better customization, ggplot2 integration (which fits your R dataviz workflow), interactivity, or easier event highlighting.\n\n1. calendR (Best Direct Replacement – ggplot2-Based)\nThe calendR package is the most straightforward upgrade. It creates fully customizable, ready-to-print monthly or yearly calendars with ggplot2, including support for events, colors, text labels, moon phases, and even calendar heatmaps.\nInstallation and basic use:\n# install.packages(\"calendR\")\nlibrary(calendR)\n\n# Yearly calendar\ncalendR(year = 2026)\n\n# Monthly with events and custom styling\ncalendR(\n  year = 2026, month = 6,\n  start = \"M\",               # Monday start\n  special.days = c(10, 15, 20),  # Highlight days\n  special.col = \"lightblue\",\n  title.size = 20,\n  text.size = 10\n)\n\n# Calendar heatmap (e.g., for activity levels)\ncalendR(year = 2026, \n        special.days = your_event_dates,\n        special.col = scales::viridis_pal()(10))\nIn Quarto: Chunk outputs are high-quality ggplot2 plots (SVG/PNG). Add fig-width, fig-height, and themes for polish. You can script events from a data frame (e.g., CSV or tibble) for dynamic updates on re-render.\nThis keeps everything in R/ggplot2 while looking far more professional than TeachingDemos.\n\n\n2. Custom ggplot2 Calendars (Flexible, No Extra Package Needed)\nBuild your own with ggplot2 + lubridate/dplyr for full control. Packages like sugrrants (frame_calendar()) or simple grid setups also work well.\nExample skeleton:\nlibrary(tidyverse)\nlibrary(lubridate)\n\ndates &lt;- tibble(date = seq(as.Date(\"2026-01-01\"), as.Date(\"2026-12-31\"), by = \"day\")) %&gt;%\n  mutate(weekday = wday(date, label = TRUE),\n         month = month(date, label = TRUE),\n         day = day(date),\n         week = floor((yday(date) - 1) / 7) + 1)  # etc.\n\nggplot(dates, aes(x = weekday, y = -week, label = day, fill = some_value)) +\n  geom_tile(color = \"white\") +\n  geom_text() +\n  facet_wrap(~ month) +\n  scale_fill_viridis_c() +  # for heatmaps\n  theme_minimal()\nThis integrates seamlessly with your existing dataviz code (e.g., overlay event data or metrics).\n\n\n3. Interactive JavaScript Calendars (via Quarto HTML Features)\nFor a more modern, clickable experience (e.g., event popups, navigation), embed JS libraries. Quarto HTML supports this natively.\n\nFullCalendar (most popular): Highly performant, supports events, drag-and-drop, multiple views. Include via HTML/JS in a Quarto page or use Observable JS.\n\nAdd to your .qmd with include-before-body or raw HTML blocks.\nExample resources exist for Quarto + ICS files or static event JSON.\n\nObservable JS (built into Quarto): Use reactive JS calendars or D3-based ones. Great if you want interactivity tied to R data (e.g., pass events via ojs_define()).\n\nSimple embed example (FullCalendar):\n# In YAML or include-in-header\ninclude-in-header:\n  text: |\n    &lt;link href='https://cdn.jsdelivr.net/npm/fullcalendar@6/index.global.min.css' rel='stylesheet' /&gt;\n    &lt;script src='https://cdn.jsdelivr.net/npm/fullcalendar@6/index.global.min.js'&gt;&lt;/script&gt;\nThen a {html} or raw block with a &lt;div id='calendar'&gt;&lt;/div&gt; and script to initialize with your events.\n\n\n4. Other R Options\n\ncalendar package: For generating/reading .ics files (iCalendar format). Export events and display via JS above.\nHeatmap-focused: openair::calendarPlot() or custom ggplot2 for activity tracking.\n\n\n\nRecommendations for Your Site\n\nStay in R: Start with calendR — it’s the least friction and produces nicer static output than TeachingDemos.\nAdd polish: Use ggsave() for consistent sizing or Quarto figure options.\nGo dynamic: If you have recurring/upcoming events, maintain them in a data frame/CSV and script highlights.\nInteractive upgrade: Combine R (generate event JSON) + FullCalendar/Observable for a web-native feel.\n\nYou can regenerate the page on schedule (e.g., via GitHub Actions or Posit Connect) to keep “Upcoming events as of [date]” fresh.\nIf you share more details (e.g., how events are stored or desired features like heatmaps/recurrence), I can provide exact code snippets!"
-  },
-  {
-    "objectID": "calendar.html",
-    "href": "calendar.html",
-    "title": "Calendar",
-    "section": "",
-    "text": "Upcoming events as of June, 2026:\n\nJuneJulyAugustSeptember"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Wanna schedule Kitty Wampas for your event?\nContact Mr 6–strings"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Kitty Wampas",
-    "section": "",
-    "text": "Kitty Wampas is a power rock trio from the Twin Cities area.\n\n\n\n\n\n\n6 StringsTravis\n\n\n\n\n\n\nBoom BoomsJake\n\n\n\n\n\n\n4 StringsJohn–o"
   }
 ]

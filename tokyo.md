@@ -1,0 +1,47 @@
+**Tokai basses are a great find in Japan** — the brand is headquartered and hand-builds instruments in Hamamatsu, so you're starting in the right city. New and especially used/vintage Tokai basses (including Jazz Bass-style models like the APB series) do appear regularly in Japanese shops, particularly places specializing in used or Japanese-made gear.
+
+Here are the **best bets**, prioritized by your plans:
+
+### 1. Hamamatsu (Start Here)
+Your best local option is **SONIX (ソニックス)**, widely regarded as the biggest and strongest music store in Hamamatsu for **used instruments**, guitars, basses, and repairs. They buy/sell a lot of used gear and are your highest-likelihood spot in the city itself for a used Tokai bass.
+
+- **Address**: 4-5-8 Takabayashi, Chuo-ku, Hamamatsu-shi, Shizuoka 430-0907
+- **Phone**: 053-476-6688
+- **Hours**: 11:00–20:00 (closed Tuesdays)
+- They list inventory on **Digimart** (see below), so you can check stock ahead of time.
+
+There isn't a public Tokai factory outlet or retail showroom for walk-in purchases (the factory is in the outskirts and past visits were by special arrangement only).
+
+**Bonus nearby**: The **Hamamatsu Museum of Musical Instruments** is worth a quick visit for context (it's the "City of Music" after all), but it's a museum, not a shop.
+
+### 2. Tokyo – Ochanomizu Guitar Street (Highest Overall Likelihood)
+This is **the premier destination** in Japan for new and especially **used/vintage Japanese guitars and basses** (Tokai, Greco, Yamaha, etc.). The density of shops is unmatched — it's basically guitar heaven on one street (Meidai-dōri). Many stores have dedicated used sections and regularly stock Tokai instruments.
+
+**Top recommendations**:
+- **Ishibashi Music (イシバシ楽器)** — Multiple locations, including the big Ochanomizu Honten and "Finest Guitars" section nearby. Excellent selection of both new Tokai models and used/vintage ones. They handle tourists well (English support, tax-free with passport).
+- **Shimokura Musical Instruments / Shimokura Second Hands** — Two locations right on Guitar Street. One of the best for **used and vintage** Japanese instruments. Often has deeper stock of older Tokai pieces.
+
+Other solid shops on the same street include Guitar Planet, Kurosawa, and various smaller used-focused spots. Just walk the street — you'll see guitars everywhere.
+
+
+
+
+
+**Travel tip from Hamamatsu**: Take the Shinkansen (Hikari or Kodama) to Tokyo Station (~1h 15–40 min), then a short subway/walk to Ochanomizu. Very doable as a day trip or overnight. Worth it if you're serious about finding a Tokai bass.
+
+### Other Strong Options If You're Willing to Travel
+- **Nagoya** — Ishibashi has a store here, and there are used instrument shops (e.g., around the Gakuya area). It's closer to Hamamatsu (~45–60 min by train) than Tokyo.
+- **Other big cities** — Ishibashi branches in Osaka, Yokohama, etc., are reliable for new stock.
+
+### Pro Tips for Hunting Tokai Basses
+- **Digimart.net** (or the app) is your best friend — Japan's biggest aggregator of used instruments. Search "**tokai ベース**" (Tokai bass) or filter by brand "Tokai" + bass category. It shows real-time stock from stores across Japan (including SONIX, Ishibashi, Shimokura, etc.) with photos, condition, and prices. Many listings are from the exact shops you'll visit.
+- **New vs Used**: SONIX leans heavily used. Ochanomizu has the best mix — current production Tokai basses (e.g., APB-101 models) plus plenty of older Japanese-made ones.
+- **Tax-free shopping**: Bring your passport — most major stores offer duty-free for tourists.
+- **Bargaining**: Common on used items (especially cash or multiple purchases). Don't be shy but stay polite.
+- **Condition check**: Japanese used gear is usually well-maintained, but always play/test thoroughly.
+
+**Quick plan suggestion**:
+1. Hit **SONIX** in Hamamatsu first (easy local win for used).
+2. If nothing clicks or you want more options, head to **Ochanomizu** in Tokyo — that's where you're most likely to score a great Tokai bass (new or used/vintage).
+
+Would you like me to help narrow it down further (e.g., specific models you're after, budget range, or current Digimart-style stock ideas)? Or need addresses/maps for any of these spots? Safe travels and happy hunting! 🎸
