@@ -1,10 +1,69 @@
 ::: {.roboto}
 
+::: {.panel-tabset}
+
+### Ming's Plans
+
+Some of my suggestions and my travel plan.
+
+Ska concert: <https://www.loft-prj.co.jp/schedule/loft/schedule/353698> You should consider going. On the 12th. I will pass.
+
+Bullet train (shinkansen): Probably we can get tickets easily at the station for our time period. I usually get (1) a base ticket and (2) a seat reservation. If you take a base ticket but no seat reservation, you can sit on a seat that is not reserved. There is usually an indicator at the seat. If the seat is later reserved after you have sat down, when the person shows up, just give up the seat for the person. There are two class of tickets I usually get the cheaper one.
+
+Tokyo to Hamamatsu: Two stations (Tokyo or Shinagawa). Google said 1 hour 7 minutes to Hamamatsu.
+
+Places to visit from Tokyo for a day trip: Nikko, Yokohama, Kamakura, Hakone, Mount Takao.
+
+Neighborhood to visit: Too many to list, but Koenji and Shimokitazawa are more hipster places to visit. Famous tourist neighborhoods are Asakusa, Ginza, Roppongi, Ueno, Akihabara, Shinjuku, Shibuya, Ikekuburo, Harakuju. If you want to try a food vendor with a few seats, Golden Gai in Shinjuku is famous (and touristy).
+
+Animal cafe: Some cat cafe are well-run and treat their cats nice, some do not. Capybara cafe has been popular lately. Some require advanced booking.
+
+Cheap food to try: Maria and I like the food in all convenience stores (7/11, Lawson and Family Mart) and Mos Burger. I am partial to Denny's and Jonathan's.
+
+Baseball game: There seems to be a professional baseball game in Tokyo on July 15 between Tokyo Yakult Swallows and Yomiuri Giants in Shinjuku, 6:00pm.
+
+July 11:
+  
+  + We arrive at 1:50pm. Expect 1-2 hours to get out of immigration and customs. Let's grab a taxi to Roppongi. Google said around $60.00. I am happy to pay.  
+  + Hopefully at hotel before 5:00pm.  
+  + We have a booking of the cocktail bar at 8:00pm. They serve food I think. Will check.
+
+July 12:  
+
++ Probably do some shopping.  
++ <https://tokyocheapo.com/place/sou-sou-kyoto-aoyama/>  
++ <https://tabiousa.com> (The brand is available in many places in Tokyo)
++ SUGGESTION TO YOU: <https://www.loft-prj.co.jp/schedule/loft/schedule/353698>
++ I will head to Hamamatsu after shopping. If you go to the concert, I suggest you come to Hamamatsu early in the morning of the 13th. If you don't go to the concert, you can come with me. If we go together, we should have a good izakaya dinner at Hamamatsu.
++ I stay at Okura ACT City Hamamatsu hotel, which is next to the station.
+
+July 13:  
+
+  - Visit a few places.  
+  - If you come to Hamamatsu on the 13th and stay overnight, then we can have dinner together.
+
+July 14:  
+
++ Spend time in Hamamatsu in the morning and then go to Hakone.  
++ I will spend time with my sensei in Hakone--lesson and dinner. Then I will stay overnight in an onsen hotel.  
+
+July 15:  
+
++ Leave Hakone and go to Shinjuku, Tokyo.  
++ No plan so far.  
+
+July 16:  
+
++ Maybe more shopping in the morning.  
++ Leave for Narita airport shortly after lunch.  
+
+### Tokai &#119074;
+
 **Tokai basses are a great find in Japan** — the brand is headquartered and hand-builds instruments in Hamamatsu, so you're starting in the right city. New and especially used/vintage Tokai basses (including Jazz Bass-style models like the APB series) do appear regularly in Japanese shops, particularly places specializing in used or Japanese-made gear.
 
 Here are the **best bets**, prioritized by your plans:
 
-### 1. Hamamatsu (Start Here)
+## 1. Hamamatsu (Start Here)
 Your best local option is **SONIX (ソニックス)**, widely regarded as the biggest and strongest music store in Hamamatsu for **used instruments**, guitars, basses, and repairs. They buy/sell a lot of used gear and are your highest-likelihood spot in the city itself for a used Tokai bass.
 
 - **Address**: 4-5-8 Takabayashi, Chuo-ku, Hamamatsu-shi, Shizuoka 430-0907
@@ -16,7 +75,7 @@ There isn't a public Tokai factory outlet or retail showroom for walk-in purchas
 
 **Bonus nearby**: The **Hamamatsu Museum of Musical Instruments** is worth a quick visit for context (it's the "City of Music" after all), but it's a museum, not a shop.
 
-### 2. Tokyo – Ochanomizu Guitar Street (Highest Overall Likelihood)
+## 2. Tokyo – Ochanomizu Guitar Street (Highest Overall Likelihood)
 This is **the premier destination** in Japan for new and especially **used/vintage Japanese guitars and basses** (Tokai, Greco, Yamaha, etc.). The density of shops is unmatched — it's basically guitar heaven on one street (Meidai-dōri). Many stores have dedicated used sections and regularly stock Tokai instruments.
 
 **Top recommendations**:
@@ -31,11 +90,11 @@ Other solid shops on the same street include Guitar Planet, Kurosawa, and variou
 
 **Travel tip from Hamamatsu**: Take the Shinkansen (Hikari or Kodama) to Tokyo Station (~1h 15–40 min), then a short subway/walk to Ochanomizu. Very doable as a day trip or overnight. Worth it if you're serious about finding a Tokai bass.
 
-### Other Strong Options If You're Willing to Travel
+## Other Strong Options If You're Willing to Travel
 - **Nagoya** — Ishibashi has a store here, and there are used instrument shops (e.g., around the Gakuya area). It's closer to Hamamatsu (~45–60 min by train) than Tokyo.
 - **Other big cities** — Ishibashi branches in Osaka, Yokohama, etc., are reliable for new stock.
 
-### Pro Tips for Hunting Tokai Basses
+## Pro Tips for Hunting Tokai Basses
 - **Digimart.net** (or the app) is your best friend — Japan's biggest aggregator of used instruments. Search "**tokai ベース**" (Tokai bass) or filter by brand "Tokai" + bass category. It shows real-time stock from stores across Japan (including SONIX, Ishibashi, Shimokura, etc.) with photos, condition, and prices. Many listings are from the exact shops you'll visit.
 - **New vs Used**: SONIX leans heavily used. Ochanomizu has the best mix — current production Tokai basses (e.g., APB-101 models) plus plenty of older Japanese-made ones.
 - **Tax-free shopping**: Bring your passport — most major stores offer duty-free for tourists.
@@ -47,5 +106,7 @@ Other solid shops on the same street include Guitar Planet, Kurosawa, and variou
 2. If nothing clicks or you want more options, head to **Ochanomizu** in Tokyo — that's where you're most likely to score a great Tokai bass (new or used/vintage).
 
 Would you like me to help narrow it down further (e.g., specific models you're after, budget range, or current Digimart-style stock ideas)? Or need addresses/maps for any of these spots? Safe travels and happy hunting! 🎸
+
+:::
 
 :::
