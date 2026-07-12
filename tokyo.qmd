@@ -2,6 +2,31 @@
 
 ::: {.panel-tabset}
 
+### Hammamatsu
+
+Many routes of Shinkansen (bullet train). Use Shinkansen here—they do not use “bullet train”.
+
+The specific route is Tokaido. West bound train starts at Tokyo Station, and stops at Shinagawa. You can board on either in Tokyo the city.
+
+Don’t know Shinagawa. Boarded in Tokyo Station. The station is huge. The closest entrance is “Yaesu” area. Don’t know what the name means but it’s on Google map. It is basically on the east side of the station.
+
+Near the entrance, there is a JR ticket office. Japan Railway I guess? You can get tickets there. But I used a machine that specifically sells Shinkansen tickets.
+
+I bought “Reserved Ticket”. It paid for the base price and a seat reservation price. If you get non-reserved ticket, some cars are designated “free seating” car. Usually there are signs about which. “Green Car” is 1st class seats. Never bought them. Seems like window E seats westbound you have a chance to see Mt Fuji.
+
+You can search train using departure or arrival time. You will be asked the FROM city, the TO city, and whether one way or return.
+
+Train from Tokyo Station to Hamamatsu has either the name Hikari or Kodama, followed by a number. Hikari has fewer stops, takes 1 hour 24 min. Kodama is slower: 1 hour 49 min. I took 2:03 Hikari 715. Hikari runs every hour at the 3rd minute. Number maybe different at different times. So I look for “14:03 Hikari 715”. You would see this info on the side of the train and inside the train too. So you cannot miss.
+
+The machine gave me three papers but only one is the ticket. It is a shorter one with the most info printed on it.
+
+This is the most confusing part. When I passed through the first gate with the ticket, I cannot find my train or the platform. I saw an arrow with the Shinkansen logo with the name “Tokaido”. I followed the direction, passed a second gate (using the same ticket) and then found the platform. You ticket should also tell you the car number and seat number.
+
+Good luck tomorrow!
+
+![Shinkansen Logo](img/shinkansen logo.JPG)
+![Tokyo Station – Yaesu Entrance (East Side)](img/yaesu.JPG)
+
 ### Ska Crash
 
 [SkaCrash26](https://www.loft-prj.co.jp/schedule/loft/schedule/353698)
