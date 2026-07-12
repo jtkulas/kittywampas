@@ -2,6 +2,72 @@
 
 ::: {.panel-tabset}
 
+### Ska Crash
+
+[SkaCrash26](https://www.loft-prj.co.jp/schedule/loft/schedule/353698)
+
+Shinjuku Loft
+1-12-9 Kabukicho, Shinjuku-ku, Tokyo 160-0021, Japan (Tatehana Building B2)
+新宿ロフト
+〒160-0021 東京都新宿区歌舞伎町1-12-9 タテハナビルB2
+
+
+- **Walk** ~5-6 min to **Roppongi Station** (Toei Oedo Line / Tokyo Metro Hibiya Line, Exit 5 or nearby).
+- Take the **Toei Oedo Line** toward **Shinjuku** or **Hikarigaoka** (counter-clockwise direction) — direct ride, about **9-12 minutes**.
+- Get off at **Shinjuku Station** (or Shinjuku-Nishiguchi for slightly closer access).
+- **Walk** ~5-10 min to Kabukicho (east side of Shinjuku Station, toward Yasukuni-dori). The Tatehana Building is a short walk into the district.
+
+**Fare**: ~¥170-220. Very reliable with frequent trains (every ~10 min).
+
+![](img/ska26.JPG)
+
+**Yes — you generally pay (or finalize payment) when you exit at your destination station.**
+
+How Tokyo Subway Fares Work
+Tokyo uses a **distance-based fare system**. You don’t pay a fixed “toll” upfront for most journeys.
+
+- **With an IC card** (recommended — Suica, PASMO, or any compatible card, including many contactless credit/debit cards and Apple/Google Pay):
+  - **Tap in** at the entry gate (blue sensor area).
+  - **Tap out** at the exit gate when you leave.
+  - The system automatically calculates the exact fare based on distance traveled and deducts it from your balance.
+  - Super convenient — no need to know the fare in advance.
+
+Step-by-Step Navigation for First-Timers
+1. **Find the right station entrance**  
+   Look for signs with the station name + subway symbols (Tokyo Metro is a white “M” on blue; Toei Subway has its own logos).
+
+2. **Buy / prepare your ticket or card**  
+   - Best option: Get a **Suica or PASMO** IC card from a vending machine (or use contactless credit card if supported).  
+   - Add some money (¥1,000–2,000 is plenty for a few trips).
+
+3. **Enter the gate**  
+   - Tap your IC card or insert ticket.  
+   - Follow signs to your **line** (e.g., “Oedo Line” or “Hibiya Line”) and **direction** (e.g., toward Shinjuku).
+
+4. **On the platform**  
+   - Check the electronic boards for the next train and which car stops closest to your exit.  
+   - Stand behind the yellow lines.
+
+5. **Ride the train**  
+   - Trains are clean, quiet, and very punctual.  
+   - Announcements are in Japanese + English.  
+   - Priority seats are for elderly, disabled, pregnant people, etc.
+
+6. **Exit at your destination**  
+   - Follow signs for the exit closest to your destination (e.g., “East Exit” for Kabukicho).  
+   - **Tap out** (or insert ticket).  
+   - If using IC card → fare is deducted automatically.  
+   - If short on fare → use the adjustment machine (it has English).
+
+Quick Tips for Your Roppongi → Kabukicho Trip
+- For the **Toei Oedo Line** direct route: Tap in at Roppongi, tap out at Shinjuku / Shinjuku-Nishiguchi. Very straightforward.
+- Trains run frequently (every 3–10 minutes during the day).
+- Be mindful of your belongings (pickpocketing is rare but possible in crowded areas).
+
+**IC card is by far the easiest way** — just tap in, tap out, and go. You’ll get the hang of it after one or two rides! Let me know if you need help with a specific station map or line. Safe travels! 🚇
+
+
+
 ### Ming's Plans
 
 Some of my suggestions and my travel plan.
