@@ -15,23 +15,6 @@ library(TeachingDemos)
 
 ::: {.panel-tabset}
 
-### July
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-
-setday <-cal(7,2026)                             ## July
-setday(8)
-rect(-0.04,-0.04,1.04,1.04, col="#ed8ade")
-text(0.5,0.5,"Phantazee Rulez \n 6:00")
-setday(22)
-rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
-text(0.5,0.5,"Practice \n 6:30")
-
-```
-
 ### August
 
 ```{r}
@@ -43,7 +26,13 @@ setday <-cal(8,2026)                             ## August
 setday(5)
 rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
 text(0.5,0.5,"Practice \n 6:30")
+setday(12)
+rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
+text(0.5,0.5,"Practice \n 6:30")
 setday(19)
+rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
+text(0.5,0.5,"Practice \n 6:30")
+setday(26)
 rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
 text(0.5,0.5,"Practice \n 6:30")
 
@@ -69,5 +58,27 @@ text(0.5,0.5,"Practice \n 6:30")
 
 ```
 
+### October
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+setday <-cal(10,2026)                           
+setday(7)
+rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
+text(0.5,0.5,"Practice \n 6:30")
+setday(14)
+rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
+text(0.5,0.5,"Practice \n 6:30")
+setday(21)
+rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
+text(0.5,0.5,"Practice \n 6:30")
+setday(28)
+rect(-0.04,-0.04,1.04,1.04, col="#8aeaed")
+text(0.5,0.5,"Practice \n 6:30")
+
+```
 
 :::
