@@ -89,10 +89,10 @@ rect rgb(200, 150, 255)
 Gary->>Kyle: ⭐ Rnd 2⃣ (2027)
 end
 rect rgb(200, 150, 255)
-Strauss->>Kyle: ⭐ Rnd 2⃣ (2027)
-end
-rect rgb(200, 150, 255)
 Kyle->>Travis: ⛔ Rnd 3⃣ (2027)
+end
+rect rgb(175, 225, 175)
+Strauss->>Kyle: ⭐ Rnd 2⃣ (2028)
 end
 
 ```
